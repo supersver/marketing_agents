@@ -7,7 +7,7 @@ workflows:
   - id: 2l3ke0c7gv7
     name: background_change_api.json
     description: ''
-    file: image_generation/background_change_api.json
+    file: image_generation_workflows/background_change_api.json
     inputs:
       - path: 9.inputs.filename_prefix
         label: filename_prefix
