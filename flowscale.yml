@@ -3,34 +3,4 @@ models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-workflows:
-  - id: 2l3ke0c7gv7
-    name: background_change_api.json
-    description: ''
-    file: image_generation/background_change_api.json
-    inputs:
-      - path: 9.inputs.filename_prefix
-        label: filename_prefix
-        parameter_name: filename_prefix_78489
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 10.inputs.image
-        label: Input Model Image
-        parameter_name: image_81870
-        type: string
-        demo_type: image
-        category: input
-        randomize: false
-      - path: 6.inputs.text
-        label: Positive Prompt
-        parameter_name: text_23764
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-    outputs:
-      - label: AI Model Output
-        demo_type: image
-    skip_preprocess: true
+workflows: []
