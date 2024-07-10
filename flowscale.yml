@@ -31,6 +31,6 @@ workflows:
         category: input
         randomize: false
     outputs:
-      - label: AI Fashion Model Output
+      - label: AI Model Output
         demo_type: image
     skip_preprocess: true
