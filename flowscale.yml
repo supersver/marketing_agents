@@ -15,7 +15,7 @@ workflows:
         type: string
         demo_type: text
         category: output
-        randomize: false
+        randomize: true
       - path: 10.inputs.image
         label: Input Model Image
         parameter_name: image_81870
