@@ -33,4 +33,4 @@ workflows:
     outputs:
       - label: AI Model Output Image
         demo_type: image
-    skip_preprocess: false
+    skip_preprocess: true
