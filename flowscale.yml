@@ -1,4 +1,4 @@
-version: 41
+version: 42
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -8,3 +8,28 @@ workflows:
     name: background_change_api.json
     description: ''
     file: image_generation_workflows/background_change_api.json
+    inputs:
+      - path: 9.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_76897
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 10.inputs.image
+        label: Input Image
+        parameter_name: image_40957
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
+      - path: 6.inputs.text
+        label: Positive Prompt
+        parameter_name: text_30461
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - label: Output Image
+        demo_type: image
