@@ -1,4 +1,4 @@
-version: 43
+version: 44
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -33,4 +33,3 @@ workflows:
     outputs:
       - label: Output Image
         demo_type: image
-    skip_preprocess: true
