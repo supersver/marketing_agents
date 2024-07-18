@@ -35,5 +35,12 @@
     "nodes": [
       "Save Text File"
     ]
+  },
+  {
+    "url": "https://github.com/nkchocoai/ComfyUI-PromptUtilities",
+    "name": "ComfyUI-PromptUtilities",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "nodes": []
   }
 ]
