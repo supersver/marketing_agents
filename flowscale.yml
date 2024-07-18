@@ -63,3 +63,4 @@ workflows:
     outputs:
       - label: Output Text
         demo_type: text
+    skip_preprocess: true
