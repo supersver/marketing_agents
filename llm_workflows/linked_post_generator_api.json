@@ -225,5 +225,23 @@
     "_meta": {
       "title": "Show Text ♾️MixlabApp"
     }
+  },
+  "32": {
+    "inputs": {
+      "text": [
+        "27",
+        0
+      ],
+      "path": "./ComfyUI/output/[time(%Y-%m-%d)]",
+      "filename_prefix": "ComfyUI",
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "file_extension": ".txt",
+      "encoding": "utf-8"
+    },
+    "class_type": "Save Text File",
+    "_meta": {
+      "title": "Save Text File"
+    }
   }
 }
