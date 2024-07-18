@@ -34,3 +34,7 @@ workflows:
       - label: Output Image
         demo_type: image
     skip_preprocess: true
+  - id: h3d0emvf6c
+    name: linked_post_generator_api.json
+    description: ''
+    file: llm_workflows/linked_post_generator_api.json
