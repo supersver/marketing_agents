@@ -34,3 +34,7 @@ workflows:
       - label: Output Image
         demo_type: image
     skip_preprocess: true
+  - id: snfojxqol4
+    name: llm_test_api.json
+    description: ''
+    file: llm_workflows/llm_test_api.json
