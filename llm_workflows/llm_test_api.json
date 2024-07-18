@@ -1,0 +1,35 @@
+{
+  "10": {
+    "inputs": {
+      "api_key": "by Mixlab",
+      "api_url": "https://api.openai.com/v1",
+      "prompt": "how are you",
+      "system_content": "You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.",
+      "model": "gpt-4o",
+      "seed": 1073453442009721,
+      "context_size": 1
+    },
+    "class_type": "ChatGPTOpenAI",
+    "_meta": {
+      "title": "ChatGPT & Local LLM ♾️Mixlab"
+    }
+  },
+  "12": {
+    "inputs": {
+      "text": [
+        "10",
+        0
+      ],
+      "path": "./ComfyUI/output/[time(%Y-%m-%d)]",
+      "filename_prefix": "ComfyUI",
+      "filename_delimiter": "_",
+      "filename_number_padding": 4,
+      "file_extension": ".txt",
+      "encoding": "utf-8"
+    },
+    "class_type": "Save Text File",
+    "_meta": {
+      "title": "Save Text File"
+    }
+  }
+}
