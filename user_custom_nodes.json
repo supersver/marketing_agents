@@ -1,5 +1,14 @@
 [
   {
+    "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
+    "name": "was-node-suite-comfyui",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "nodes": [
+      "Save Text File"
+    ]
+  },
+  {
     "url": "https://github.com/nkchocoai/ComfyUI-PromptUtilities",
     "name": "ComfyUI-PromptUtilities",
     "path": "custom_nodes",
