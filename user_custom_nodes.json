@@ -19,5 +19,12 @@
     "nodes": [
       "OpenposePreprocessor"
     ]
+  },
+  {
+    "url": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
+    "name": "comfyui-mixlab-nodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "nodes": []
   }
 ]
