@@ -1,30 +1,11 @@
 [
   {
-    "url": "https://github.com/storyicon/comfyui_segment_anything",
-    "name": "comfyui_segment_anything",
+    "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
+    "name": "was-node-suite-comfyui",
     "path": "custom_nodes",
     "fetch_type": "git-clone",
     "nodes": [
-      "SAMModelLoader (segment anything)",
-      "GroundingDinoModelLoader (segment anything)",
-      "GroundingDinoSAMSegment (segment anything)",
-      "InvertMask (segment anything)"
+      "Save Text File"
     ]
-  },
-  {
-    "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
-    "name": "comfyui_controlnet_aux",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [
-      "OpenposePreprocessor"
-    ]
-  },
-  {
-    "url": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
-    "name": "comfyui-mixlab-nodes",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": []
   }
 ]
