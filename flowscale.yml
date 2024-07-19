@@ -13,7 +13,7 @@ workflows:
     name: linked_post_generator_api.json
     description: ''
     file: llm_workflows/linked_post_generator_api.json
-    skip_preprocess: false
+    skip_preprocess: true
     inputs:
       - path: 32.inputs.filename_prefix
         label: filename_prefix
