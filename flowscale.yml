@@ -1,4 +1,4 @@
-version: 51
+version: 52
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -12,20 +12,27 @@ workflows:
     inputs:
       - path: 9.inputs.filename_prefix
         label: filename_prefix
-        parameter_name: filename_prefix_28255
+        parameter_name: filename_prefix_45798
         type: string
         demo_type: text
         category: output
         randomize: true
+      - path: 10.inputs.image
+        label: Input Image
+        parameter_name: image_84150
+        type: string
+        demo_type: image
+        category: input
+        randomize: false
       - path: 6.inputs.text
         label: Positive Prompt
-        parameter_name: text_32399
+        parameter_name: text_89831
         type: string
         demo_type: text
         category: input
         randomize: false
     outputs:
-      - label: Output
+      - label: Output Image
         demo_type: image
   - id: ouku173zclc
     name: linked_post_generator_api.json
