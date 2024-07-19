@@ -32,7 +32,3 @@ workflows:
     description: ''
     file: llm_workflows/linked_post_generator_api.json
     skip_preprocess: false
-  - id: ffqcy1bric5
-    name: llm_test_api.json
-    description: ''
-    file: image_generation_workflows/llm_test_api.json
