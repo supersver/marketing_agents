@@ -1,42 +1,5 @@
 [
   {
-    "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
-    "name": "was-node-suite-comfyui",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [
-      "Save Text File"
-    ]
-  },
-  {
-    "url": "https://github.com/nkchocoai/ComfyUI-PromptUtilities",
-    "name": "ComfyUI-PromptUtilities",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [
-      "PromptUtilitiesFormatString",
-      "PromptUtilitiesFormatString"
-    ]
-  },
-  {
-    "url": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
-    "name": "comfyui-mixlab-nodes",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_",
-      "TextInput_"
-    ]
-  },
-  {
     "url": "https://github.com/storyicon/comfyui_segment_anything",
     "name": "comfyui_segment_anything",
     "path": "custom_nodes",
