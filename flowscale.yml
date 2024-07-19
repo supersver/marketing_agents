@@ -4,31 +4,13 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: xtpzsdu4f
+  - id: 0krpz107v8zj
     name: background_change_api.json
     description: ''
     file: image_generation_workflows/background_change_api.json
     skip_preprocess: false
-    inputs:
-      - path: 9.inputs.filename_prefix
-        label: filename_prefix
-        parameter_name: filename_prefix_81058
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 6.inputs.text
-        label: Positive Prompt
-        parameter_name: text_81860
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-    outputs:
-      - label: Output
-        demo_type: image
-  - id: zdm7p00hi2q
+  - id: ouku173zclc
     name: linked_post_generator_api.json
     description: ''
     file: llm_workflows/linked_post_generator_api.json
-    skip_preprocess: true
+    skip_preprocess: false
