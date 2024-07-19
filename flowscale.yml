@@ -1,4 +1,4 @@
-version: 49
+version: 50
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -36,3 +36,21 @@ workflows:
     name: llm_testing_api.json
     description: ''
     file: image_generation_workflows/llm_testing_api.json
+    inputs:
+      - path: 32.inputs.filename_prefix
+        label: filename_prefix
+        parameter_name: filename_prefix_82424
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+      - path: 27.inputs.api_key
+        label: Key
+        parameter_name: api_key_63918
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+    outputs:
+      - label: O/P
+        demo_type: text
