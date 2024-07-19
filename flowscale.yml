@@ -4,94 +4,13 @@ custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
 workflows:
-  - id: d6v0salgngs
+  - id: xtpzsdu4f
     name: background_change_api.json
     description: ''
     file: image_generation_workflows/background_change_api.json
-    skip_preprocess: true
-  - id: qqev0160p4g
+    skip_preprocess: false
+  - id: zdm7p00hi2q
     name: linked_post_generator_api.json
     description: ''
     file: llm_workflows/linked_post_generator_api.json
     skip_preprocess: true
-    inputs:
-      - path: 32.inputs.filename_prefix
-        label: filename_prefix
-        parameter_name: filename_prefix_51017
-        type: string
-        demo_type: text
-        category: output
-        randomize: true
-      - path: 15.inputs.api_key
-        label: OpenAI API Key
-        parameter_name: api_key_45989
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 27.inputs.api_key
-        label: OpenAI API Key
-        parameter_name: api_key_50439
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 11.inputs.text
-        label: Video Transcript
-        parameter_name: text_33908
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 19.inputs.text
-        label: Brand Voice
-        parameter_name: text_27356
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 20.inputs.text
-        label: Brand Tone
-        parameter_name: text_48686
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 21.inputs.text
-        label: Post Word Length
-        parameter_name: text_24536
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 22.inputs.text
-        label: Engagement Type
-        parameter_name: text_88453
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 23.inputs.text
-        label: Emoji Frequency
-        parameter_name: text_36487
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 24.inputs.text
-        label: Technical Depth
-        parameter_name: text_15923
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-      - path: 25.inputs.text
-        label: Content Focus
-        parameter_name: text_52045
-        type: string
-        demo_type: text
-        category: input
-        randomize: false
-    outputs:
-      - label: Linkedin Post/s
-        demo_type: text
