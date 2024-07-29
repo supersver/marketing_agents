@@ -56,5 +56,12 @@
     "nodes": [
       "Save Text File"
     ]
+  },
+  {
+    "url": "https://github.com/WASasquatch/was-just-added",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "nodes": [],
+    "name": "was-just-added"
   }
 ]
