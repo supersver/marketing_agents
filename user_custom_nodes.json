@@ -49,8 +49,8 @@
     ]
   },
   {
-    "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
-    "name": "was-node-suite-comfyui",
+    "url": "https://github.com/WASasquatch/was-node-suite-comfyui is",
+    "name": "was-node-suite-comfyui is",
     "path": "custom_nodes",
     "fetch_type": "git-clone",
     "nodes": [
