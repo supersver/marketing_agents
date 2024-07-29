@@ -9,8 +9,7 @@
       "GroundingDinoModelLoader (segment anything)",
       "GroundingDinoSAMSegment (segment anything)",
       "InvertMask (segment anything)"
-    ],
-    "id": "0.75271108266377"
+    ]
   },
   {
     "url": "https://github.com/Fannovel16/comfyui_controlnet_aux",
@@ -19,8 +18,7 @@
     "fetch_type": "git-clone",
     "nodes": [
       "OpenposePreprocessor"
-    ],
-    "id": "0.332293336323394"
+    ]
   },
   {
     "url": "https://github.com/nkchocoai/ComfyUI-PromptUtilities",
@@ -30,8 +28,7 @@
     "nodes": [
       "PromptUtilitiesFormatString",
       "PromptUtilitiesFormatString"
-    ],
-    "id": "0.8814516607783056"
+    ]
   },
   {
     "url": "https://github.com/shadowcz007/comfyui-mixlab-nodes",
@@ -49,8 +46,7 @@
       "TextInput_",
       "TextInput_",
       "TextInput_"
-    ],
-    "id": "0.2985310521237381"
+    ]
   },
   {
     "url": "https://github.com/WASasquatch/was-node-suite-comfyui",
@@ -59,15 +55,13 @@
     "fetch_type": "git-clone",
     "nodes": [
       "Save Text File"
-    ],
-    "id": "0.30888472630079034"
+    ]
   },
   {
-    "id": "0.9389326512508978",
-    "url": "hello/jfkak",
+    "url": "hello/jfkak/yoyo",
     "path": "custom_nodes",
     "fetch_type": "git-clone",
     "nodes": [],
-    "name": "jfkak"
+    "name": "yoyo"
   }
 ]
