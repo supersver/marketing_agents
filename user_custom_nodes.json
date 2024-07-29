@@ -56,19 +56,5 @@
     "nodes": [
       "Save Text File"
     ]
-  },
-  {
-    "url": "https://github.com/WASasquatch/was-suite-comfyui-testing",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [],
-    "name": "was-suite-comfyui-testing"
-  },
-  {
-    "url": "https://github.com/WASasquatch/was-node-suite-comfyui-testing-again",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [],
-    "name": "was-node-suite-comfyui-testing-again"
   }
 ]
