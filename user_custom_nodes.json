@@ -56,12 +56,5 @@
     "nodes": [
       "Save Text File"
     ]
-  },
-  {
-    "url": "hello/jfkak/yoyo",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [],
-    "name": "yoyo"
   }
 ]
