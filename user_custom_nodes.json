@@ -47,14 +47,5 @@
       "TextInput_",
       "TextInput_"
     ]
-  },
-  {
-    "url": "https://github.com/WASasquatch/was-node-suite-comfyui- mkakfn",
-    "name": "was-node-suite-comfyui- mkakfn",
-    "path": "custom_nodes",
-    "fetch_type": "git-clone",
-    "nodes": [
-      "Save Text File"
-    ]
   }
 ]
